@@ -29,11 +29,43 @@ Lets get the location of Node.js software from Ubuntu repositories.
 
 To install Node.js on the server, run the command;
 
-<code>sudo apt-get install -y nodejs</code> The command also installs both node.js and npm, NPM is a package manager for Node like apt for Ubuntu, it is used to install Node modules & packages; also manage dependency conflicts
+<code>sudo apt-get install -y nodejs</code> 
+
+Note: The command also installs both node.js and npm, NPM is a package manager for Node like apt for Ubuntu, it is used to install Node modules & packages; also manage dependency conflicts
 
 ![alt text](./Images/sudo%20apt%20get.PNG)
 
 
+Verify the node installation with the command below
+
+<code>node -v</code>
+
+Verify the node installation with the command below
+
+<code>npm -v </code>
+
+Application Code Setup
+
+Create a new directory for your To-Do project:
+
+<code>mkdir Todo</code>
+
+Run the command below to verify that the Todo directory is created with ls command
+
+<code>ls</code>
 
 
+![alt text](./Images/cd%20todo.PNG)
 
+
+Next, you will use the command npm init to initialise your project, so that a new file named package.json will be created. This file will normally contain information about your application and the dependencies that it needs to run. Follow the prompts after running the command. You can press Enter several times to accept default values, then accept to write out the package.json file by typing yes.
+
+Now change your current directory to the newly created one:
+
+<code>cd Todo</code>
+
+<code>npm init</code>
+
+![alt text](./Images/nmp%20command.PNG)
+
+Next, we will Install ExpressJs and create the Routes directory.
