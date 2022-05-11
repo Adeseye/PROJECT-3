@@ -25,3 +25,15 @@ Lets get the location of Node.js software from Ubuntu repositories.
 
 <code>curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -</code>
 
+![alt text](./Images/curl%20command.PNG)
+
+To install Node.js on the server, run the command;
+
+<code>sudo apt-get install -y nodejs</code> The command also installs both node.js and npm, NPM is a package manager for Node like apt for Ubuntu, it is used to install Node modules & packages; also manage dependency conflicts
+
+![alt text](./Images/sudo%20apt%20get.PNG)
+
+
+
+
+
