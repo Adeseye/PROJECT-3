@@ -68,4 +68,53 @@ Now change your current directory to the newly created one:
 
 ![alt text](./Images/nmp%20command.PNG)
 
+*Installation continued*
+
+![alt text](./Images/nmp%202.PNG)
+
+
 Next, we will Install ExpressJs and create the Routes directory.
+
+## INSTALL EXPRESSJS
+
+Express is a framework for Node.js, therefore a lot of things developers would have programmed is already taken care of out of the box. Therefore it simplifies development, and abstracts a lot of low level details. For example, Express helps to define routes of your application based on HTTP methods and URLs.
+
+To use express, install it using npm:
+
+<code>npm install express</code>
+
+Now create a file index.js with the command below
+
+<code>touch index.js</code>
+
+
+Run ls to confirm that your index.js file is successfully created
+
+<code>Install the dotenv module</code>
+
+<code>npm install dotenv</code>
+
+![alt text](./Images/nmp%20install%20dotenv.PNG)
+
+Open the index.js file with the command below
+
+<code>vim index.js</code>
+
+Type the code below into it and save. Do not get overwhelmed by the code you see. For now, simply paste the code into the file.
+
+![alt text](./Images/code.JPG)
+
+*Vim Editor*
+
+
+![alt text](./Images/vim%20index.PNG)
+
+Notice that we have specified to use port 5000 in the code. This will be required later when we go on the browser.
+
+Use :w to save in vim and use :qa to exit vim
+
+Now it is time to start our server to see if it works. Open your terminal in the same directory as your index.js file and type:
+
+<code>node index.js</code>
+
+If every thing goes well, you should see Server running on port 5000 in your terminal.
