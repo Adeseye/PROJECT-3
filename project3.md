@@ -1,10 +1,23 @@
 ### DOCUMENTATION OF PROJECT-3 MERN STACK IMPLEMENTATION
 
-## <center>BACKEND CONFIGURATION
+### <center>SIMPLE TO-DO APPLICATION ON MERN WEB STACK
 
-In this project I would be deploying a web solution based on MERN stack in AWS Cloud.
+<center>In this project I would be creating a simple To-Do application</center>
 
-We will need to setup an instance of t2.nano family with Ubuntu Server 20.04 LTS (HVM) image, Node.JS, Expressjs & Mongodb database.
+![alt text](./Images/To-do%20application.JPG) 
+
+
+To achieve this I would be deploying a web solution based on MERN stack in AWS Cloud.
+
+I will need to setup an instance of t2.nano family with Ubuntu Server 20.04 LTS (HVM) image, install & configure the following : - 
+
+Node.JS
+
+Expressjs 
+
+Mongodb database.
+
+### STEP 1 – BACKEND CONFIGURATION
 
 Now launch an Instance of t2.nano with Ubuntu Server 20.04 LTS (HMV) image
 
@@ -118,3 +131,54 @@ Now it is time to start our server to see if it works. Open your terminal in the
 <code>node index.js</code>
 
 If every thing goes well, you should see Server running on port 5000 in your terminal.
+
+![alt text](./Images/port%205000%202.JPG)
+
+Now we need to open this port in EC2 Security Groups by creating an inbound rule to open TCP port 5000.
+
+![alt text](./Images/port%205000.JPG)
+
+Now open up your browser and try to access your server’s Public IP or Public DNS name followed by port 5000:
+
+<code>http://13.40.128.221:5000</code>
+
+![alt text](./Images/public%20IP.JPG)
+
+
+Routes
+
+There are three actions that To-Do application needs to be able to do:
+
+1.Create a new task
+
+2.Display list of all tasks
+
+3.Delete a completed task
+
+Each task will be associated with some particular endpoint and will use different standard HTTP request methods: POST, GET, DELETE.
+
+For each task, we need to create routes that will define various endpoints that the To-do app will depend on. To begin I will have to create a folder routes
+
+<code>mkdir routes</code>
+
+Change directory to routes folder.
+
+<code>cd routes</code>
+
+Now, create a file api.js with the command below
+
+<code>touch api.js</code>
+
+Open the file with the command below
+
+<code>vim api.js</code>
+
+Copy below code in the file.
+
+![alt text](./Images/code%202.JPG)
+
+*Vim Editor*
+
+![alt text](./Images/vim%20code.PNG)
+
+Next stage is to create *Models* directory.
