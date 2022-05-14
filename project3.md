@@ -96,6 +96,8 @@ To use express, install it using npm:
 
 <code>npm install express</code>
 
+![alt text](./Images/nmp%20install2.JPG)
+
 Now create a file index.js with the command below
 
 <code>touch index.js</code>
