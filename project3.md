@@ -171,9 +171,13 @@ Now, create a file api.js with the command below
 
 <code>touch api.js</code>
 
+![alt text](./Images/routes.JPG)
+
 Open the file with the command below
 
 <code>vim api.js</code>
+
+![alt text](./Images/vim%20editor.JPG)
 
 Copy below code in the file.
 
@@ -181,6 +185,6 @@ Copy below code in the file.
 
 *Vim Editor*
 
-![alt text](./Images/vim%20code.PNG)
+![alt text](./Images/vim.JPG)
 
 Next stage is to create *Models* directory.
