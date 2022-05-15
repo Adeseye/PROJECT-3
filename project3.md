@@ -215,6 +215,8 @@ All three commands above can be defined in one line to be executed consequently 
 
 <code>mkdir models && cd models && touch todo.js</code>
 
+![alt text](./Images/ls.JPG)
+
 Open the file created with vim todo.js then paste the code below in the file:
 
 ![alt text](./Images/1.JPG)
@@ -230,3 +232,33 @@ In Routes directory, open api.js with vim api.js, delete the code inside with :%
 ![alt text](./Images/vim%20api%20js.JPG)
 
 The next stage of the application will be the MongoDB Database
+
+## MONGODB DATABASE 
+
+We need a database where we will store our data. For this we will make use of mLab. mLab provides MongoDB database as a service solution (DBaaS), so to make life easy, you will need to sign up for a shared clusters free account, which is ideal for our use case.[Sign up here](https://www.mongodb.com/atlas-signup-from-mlab). Follow the sign up process.
+
+
+Click on build database.
+
+![alt text](./Images/create%20database.JPG)
+
+select AWS as the cloud provider, choose a region near you and click on create cluster button. 
+
+For this project I will be using the free cluster option.
+
+![alt text](./Images/cloud%20service.JPG)
+
+Next create a database username and password.
+
+![alt text](./Images/database%20username%20and%20password.JPG)
+
+Next configure Network Access, select allow access from anywhere and click the confirm button
+
+![alt text](./Images/network%20access.JPG)
+
+Network Access configured
+
+![alt text](./Images/network%20access%202.JPG)
+
+
+
