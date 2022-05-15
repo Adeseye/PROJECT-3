@@ -261,4 +261,16 @@ Network Access configured
 ![alt text](./Images/network%20access%202.JPG)
 
 
+Next is to configure the database, click on database and then connect button
+
+![alt text](./Images/connect%20database.JPG)
+
+Click on connect your application 
+
+![alt text](./Images/connect%20your%20application.JPG)
+
+
+
+
+
 
