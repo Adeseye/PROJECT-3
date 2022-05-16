@@ -269,6 +269,62 @@ Click on connect your application
 
 ![alt text](./Images/connect%20your%20application.JPG)
 
+Copy the driver code
+
+<code>mongodb+srv://<username>:<password>@cluster0.7tddk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority</code>
+
+![alt text](./Images/connect%20cluster%200.JPG)
+
+Create a file in your Todo directory and name it .env.
+
+<code>touch .env</code>
+
+<code>vi .env</code>
+
+![alt text](./Images/touch%20env.JPG)
+
+Add the connection string to access the database in it, just as below:
+
+<code>DB = 'mongodb+srv://<username>:<password>@cluster0.7tddk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'</code>
+
+Ensure to update username, password, network-address and database according to your setup
+
+![alt text](./Images/vim%20vi.JPG)
+
+
+Now we need to update the index.js to reflect the use of .env so that Node.js can connect to the database.
+
+Simply delete existing content in the file, and update it with the entire code below.
+
+To do that using vim, follow below steps
+
+Open the file with vim index.js
+
+Press esc
+
+Type :
+
+Type %d
+
+Hit ‘Enter’
+
+The entire content will be deleted, then, 
+
+Press i to enter the insert mode in vim
+
+Now, paste the entire code below in the file.
+
+![alt text](./Images/code%203.JPG)
+
+![alt text](./Images/code%204.JPG)
+
+Using environment variables to store information is considered more secure and best practice to separate configuration and secret data from the application, instead of writing connection strings directly inside the index.js application file.
+
+Start the server using the command:
+
+<code>node index.js</code>
+
+![alt text](./Images/node%20js.JPG)
 
 
 
