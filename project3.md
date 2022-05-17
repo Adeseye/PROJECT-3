@@ -276,15 +276,17 @@ Create a file in your Todo directory and name it .env.
 ![alt text](./Images/touch%20env.JPG)
 
 
-![alt text](./Images/vim%20vi.JPG)
-
 Add the connection string to access the database in it, just as below:
 
+![alt text](./Images/w.JPG)
+
+Ensure to update username, password, network-address and database according to your setup
+
+![alt text](./Images/vim%20vi.JPG)
 
 
 
 
-according to your setup
 
 Here is how to get your connection string
 
