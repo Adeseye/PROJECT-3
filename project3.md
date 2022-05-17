@@ -256,7 +256,14 @@ Create a MongoDB database and collection inside mLab
 
 ![alt text](./Images/create%20database.JPG)
 
+Browse Collections
+
 ![alt text](./Images/q.JPG)
+
+Enter your Database 
+
+![alt text](./Images/z.JPG)
+
 
 In the index.js file, we specified process.env to access environment variables, but we have not yet created this file. So we need to do that now.
 
@@ -268,9 +275,12 @@ Create a file in your Todo directory and name it .env.
 
 ![alt text](./Images/touch%20env.JPG)
 
+
+![alt text](./Images/vim%20vi.JPG)
+
 Add the connection string to access the database in it, just as below:
 
-<code>DB = 'mongodb+srv://<username>:<password>@<network-address>/<dbname>?retryWrites=true&w=majority'</code>
+
 
 
 
