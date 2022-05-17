@@ -2,7 +2,7 @@
 
 ### <center>SIMPLE TO-DO APPLICATION ON MERN WEB STACK
 
-<center>In this project I would be creating a simple To-Do application</center>
+<center>In this project I would be creating a simple To-Do application
 
 ![alt text](./Images/To-do%20application.JPG) 
 
