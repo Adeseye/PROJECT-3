@@ -1,8 +1,8 @@
-### DOCUMENTATION OF PROJECT-3 MERN STACK IMPLEMENTATION
+## DOCUMENTATION OF PROJECT-3 MERN STACK IMPLEMENTATION
 
-### <center>SIMPLE TO-DO APPLICATION ON MERN WEB STACK
+### SIMPLE TO-DO APPLICATION ON MERN WEB STACK
 
-<center>In this project I would be creating a simple To-Do application
+In this project I would be creating a simple To-Do application
 
 ![alt text](./Images/To-do%20application.JPG) 
 
@@ -11,9 +11,11 @@ To achieve this I would be deploying a web solution based on MERN stack in AWS C
 
 I will need to setup an instance of t2.nano family with Ubuntu Server 20.04 LTS (HVM) image, install & configure the following : - 
 
+ReactJS
+
 Node.JS
 
-Expressjs 
+ExpressJS 
 
 Mongodb database.
 
@@ -44,7 +46,7 @@ To install Node.js on the server, run the command;
 
 <code>sudo apt-get install -y nodejs</code> 
 
-Note: The command also installs both node.js and npm, NPM is a package manager for Node like apt for Ubuntu, it is used to install Node modules & packages; also manage dependency conflicts
+Note: The command also installs both nodejs and npm, NPM is a package manager for Node like apt for Ubuntu, it is used to install Node modules & packages; also manage dependency conflicts
 
 ![alt text](./Images/sudo%20apt%20get.PNG)
 
@@ -105,7 +107,7 @@ Now create a file index.js with the command below
 
 Run ls to confirm that your index.js file is successfully created
 
-<code>Install the dotenv module</code>
+Install the dotenv module
 
 <code>npm install dotenv</code>
 
@@ -147,7 +149,7 @@ Now open up your browser and try to access your server’s Public IP or Public D
 ![alt text](./Images/public%20IP.JPG)
 
 
-Routes
+# Routes
 
 There are three actions that To-Do application needs to be able to do:
 
@@ -238,9 +240,46 @@ The next stage of the application will be the MongoDB Database
 We need a database where we will store our data. For this we will make use of mLab. mLab provides MongoDB database as a service solution (DBaaS), so to make life easy, you will need to sign up for a shared clusters free account, which is ideal for our use case.[Sign up here](https://www.mongodb.com/atlas-signup-from-mlab). Follow the sign up process.
 
 
-Click on build database.
+Allow access to the MongoDB database from anywhere (Not secure, but it is ideal for testing)
+
+
+![alt text](./Images/network%20access.JPG)
+
+
+![alt text](./Images/network%20access%202.JPG)
+
+
+
+
+
+Create a MongoDB database and collection inside mLab
 
 ![alt text](./Images/create%20database.JPG)
+
+![alt text](./Images/q.JPG)
+
+In the index.js file, we specified process.env to access environment variables, but we have not yet created this file. So we need to do that now.
+
+Create a file in your Todo directory and name it .env.
+
+<code>touch .env</code>
+
+<code>vi .env</code>
+
+![alt text](./Images/touch%20env.JPG)
+
+Add the connection string to access the database in it, just as below:
+
+<code>DB = 'mongodb+srv://<username>:<password>@<network-address>/<dbname>?retryWrites=true&w=majority'</code>
+
+
+
+according to your setup
+
+Here is how to get your connection string
+
+
+
 
 select AWS as the cloud provider, choose a region near you and click on create cluster button. 
 
@@ -264,6 +303,14 @@ Network Access configured
 Next is to configure the database, click on database and then connect button
 
 ![alt text](./Images/connect%20database.JPG)
+
+
+Configure Database, add my own data
+
+![alt text](./Images/z.JPG)
+
+
+
 
 Click on connect your application 
 
