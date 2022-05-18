@@ -318,28 +318,6 @@ Click on connect your application
 
 ![alt text](./Images/connect%20your%20application.JPG)
 
-Copy the driver code
-
-<code>mongodb+srv://<username>:<password>@cluster0.7tddk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority</code>
-
-![alt text](./Images/connect%20cluster%200.JPG)
-
-Create a file in your Todo directory and name it .env.
-
-<code>touch .env</code>
-
-<code>vi .env</code>
-
-![alt text](./Images/touch%20env.JPG)
-
-Add the connection string to access the database in it, just as below:
-
-<code>DB = 'mongodb+srv://<username>:<password>@cluster0.7tddk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'</code>
-
-Ensure to update username, password, network-address and database according to your setup
-
-![alt text](./Images/vim%20vi.JPG)
-
 
 Now we need to update the index.js to reflect the use of .env so that Node.js can connect to the database.
 
@@ -373,9 +351,13 @@ Start the server using the command:
 
 <code>node index.js</code>
 
-![alt text](./Images/node%20js.JPG)
+![alt text](./Images/database%20connected%20successfully.JPG)
 
+Database connected successfully means backend has been configured, Now I am going to test it using RESTful API. 
 
+## Testing Backend Code without Frontend using RESTful API
+
+So far we have written backend part of our To-Do application, and configured a database, but we do not have a frontend UI yet. We need ReactJS code to achieve that. But during development, we will need a way to test our code using RESTfulL API. Therefore, we will need to make use of some API development client to test our code.
 
 
 
