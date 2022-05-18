@@ -355,9 +355,20 @@ Start the server using the command:
 
 Database connected successfully means backend has been configured, Now I am going to test it using RESTful API. 
 
+
+
 ## Testing Backend Code without Frontend using RESTful API
 
-So far we have written backend part of our To-Do application, and configured a database, but we do not have a frontend UI yet. We need ReactJS code to achieve that. But during development, we will need a way to test our code using RESTfulL API. Therefore, we will need to make use of some API development client to test our code.
+So far we have written backend part of our To-Do application, and configured a database. But I do not have a frontend UI yet. I will need ReactJS code to achieve that, while developing I need a way to test my code by using RESTfulL API. 
 
+Therefore, I will need to make use of some API development client to test the code.
 
+In this project, we will use Postman to test our API. Click Install Postman to download and install postman on your machine.
 
+In this project, we will use [Postman](https://www.postman.com/) to test our API. [Click Install ](https://www.postman.com/downloads/)Postman to download and install postman on your machine.
+
+Test all the API endpoints and make sure they are working. For the endpoints that require body, I will send JSON back with the necessary fields since it’s what I setup in my code.
+
+Now open Postman, create a POST request to the API http://<PublicIP-or-PublicDNS>:5000/api/todos. This request sends a new task to our To-Do list so the application could store it in the database.
+
+Note: make sure your set header key Content-Type as application/json
