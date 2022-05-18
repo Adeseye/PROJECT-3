@@ -275,7 +275,7 @@ Browse Collections
 
 ![alt text](./Images/q.JPG)
 
-Enter your Database 
+Setup database information i.e Database name etc  
 
 ![alt text](./Images/z.JPG)
 
@@ -300,13 +300,6 @@ Ensure to update username, password, network-address and database according to y
 ![alt text](./Images/vim%20vi.JPG)
 
 Here is how to get your connection string
-
-
-
-
-
-
-
 
 
 Next is to configure the database, click on database and then connect button
@@ -380,3 +373,17 @@ Note: make sure your set header key Content-Type as application/json
 In the body type in an action "action":"Working on Project - 3"
 
 ![alt text](./Images/Post%20man%202.JPG)
+
+Create a GET request to your API on http://<PublicIP-or-PublicDNS>:5000/api/todos. 
+
+This request retrieves all existing records from out To-do application (backend requests these records from the database and sends it us back as a response to GET request).
+
+![alt text](./Images/post%20man%204%20get.JPG)
+
+The POST & GET request tested and worked no errors, this completes the backend part of the To-Do application and all three operations works.
+
+1. Display a list of tasks – HTTP GET request
+2. Add a new task to the list – HTTP POST request
+3. Delete an existing task from the list – HTTP DELETE request
+
+I have successfully created our Backend, now let go create the Frontend.
