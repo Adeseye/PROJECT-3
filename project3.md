@@ -369,6 +369,14 @@ In this project, we will use [Postman](https://www.postman.com/) to test our API
 
 Test all the API endpoints and make sure they are working. For the endpoints that require body, I will send JSON back with the necessary fields since it’s what I setup in my code.
 
-Now open Postman, create a POST request to the API http://<PublicIP-or-PublicDNS>:5000/api/todos. This request sends a new task to our To-Do list so the application could store it in the database.
+Now open Postman, create a POST request to the *API http://<PublicIP-or-PublicDNS>:5000/api/todos*. 
+
+This request sends a new task to our To-Do list so the application could store it in the database.
 
 Note: make sure your set header key Content-Type as application/json
+
+![alt text](./Images/Post%20man.JPG)
+
+In the body type in an action "action":"Working on Project - 3"
+
+![alt text](./Images/Post%20man%202.JPG)
