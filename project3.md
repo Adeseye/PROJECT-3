@@ -387,3 +387,61 @@ The POST & GET request tested and worked no errors, this completes the backend p
 3. Delete an existing task from the list – HTTP DELETE request
 
 I have successfully created our Backend, now let go create the Frontend.
+
+## FRONTEND CREATION
+
+Since we are done with the functionality we want from our backend and API, it is time to create a user interface for a Web client (browser) to interact with the application via API. To start out with the frontend of the To-do app, we will use the create-react-app command to scaffold our app.
+
+In the same root directory as your backend code, which is the Todo directory, run:
+
+ <code>npx create-react-app client</code>
+
+
+This will create a new folder in your Todo directory called client, where you will add all the react code.
+
+![alt text](./Images/npx%20create-react-app%20client%20install.JPG)
+
+*Running a React App*
+
+Before testing the react app, there are some dependencies that need to be installed.
+
+1.Install concurrently. It is used to run more than one command simultaneously from the same terminal window.
+
+<code> npm install concurrently --save-dev</code>
+
+![alt text](./Images/npm%20install%20concurrently%20--save-dev.JPG)
+
+2.Install nodemon. It is used to run and monitor the server. If there is any change in the server code, nodemon will restart it automatically and load the new changes.
+
+<code>npm install nodemon --save-dev</code>
+
+![alt text](./Images/npm%20install%20nodemon%20--save-dev.JPG)
+
+3.In Todo folder open the package.json file. Change the highlighted part of the below screenshot and replace with the code below.
+
+![alt text](./Images/package%20code.JPG)
+
+![alt text](./Images/jason%20package%20vim%20code.JPG)
+
+
+*Configure Proxy in package.json*
+
+1.Change directory to ‘client’
+
+<code>cd client</code>
+
+2.Open the package.json file
+
+<code>vi package.json</code>
+
+3.Add the key value pair in the package.json file "proxy": "http://localhost:5000".
+
+![alt text](./Images/vi%20package.json%202.JPG)
+
+The whole purpose of adding the proxy configuration in number 3 above is to make it possible to access the application directly from the browser by simply calling the server url like http://localhost:5000 rather than always including the entire path like http://localhost:5000/api/todos
+
+Now, ensure you are inside the Todo directory, and simply do:
+
+<code>npm run dev</code>
+
+Your app should open and start running on localhost:3000
