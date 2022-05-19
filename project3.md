@@ -444,4 +444,64 @@ Now, ensure you are inside the Todo directory, and simply do:
 
 <code>npm run dev</code>
 
-Your app should open and start running on localhost:3000
+![alt text](./Images/npm%20run%20dev.JPG)
+
+Your app should open and start running on localhost:3000, create an inbound rule for port 3000
+
+![alt text](./Images/inbound%20port%203000.JPG/)
+
+This will open and start running
+
+![alt text](./Images/npm%20run%20dev%202%20React.JPG)
+
+### Creating your React Components
+
+One of the advantages of react is that it makes use of components, which are reusable and also makes code modular. For our Todo app, there will be two stateful components and one stateless component.
+
+From your Todo directory run
+
+<code>cd client</code>
+
+move to the src directory
+
+<code>cd src</code>
+
+Inside your src folder create another folder called components
+
+<code>mkdir components</code>
+
+Move into the components directory with
+
+<code>cd components</code>
+
+Inside ‘components’ directory create three files Input.js, ListTodo.js and Todo.js.
+
+<code>touch Input.js ListTodo.js Todo.js</code>
+
+Open Input.js file
+
+<code>vi Input.js</code>
+
+Copy and paste the following
+
+![alt text](./Images/code%20coding.JPG)
+
+![alt text](./Images/vi%20Input.js%20react.JPG)
+
+To make use of Axios, which is a Promise based HTTP client for the browser and node.js, you need to cd into your client from your terminal and run yarn add axios or npm install axios.
+
+Move to the src folder
+
+<code>cd .. </code>
+
+Move to clients folder
+
+<code>cd ..</code>
+
+Install Axios
+
+<code>install npm install axios</code>
+
+![alt text](./Images/npm%20install%20axios.JPG )
+
+Sip a coffee, click on the next button and let finish this up.
