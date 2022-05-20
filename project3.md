@@ -452,7 +452,9 @@ Your app should open and start running on localhost:3000, create an inbound rule
 
 ![alt text](./Images/inbound%20port%203000.JPG/)
 
-This will open and start running
+Now open web browser, type in public IP & port 3000.
+
+http://13.40.197.221:3000
 
 ![alt text](./Images/npm%20run%20dev%202%20React.JPG)
 
