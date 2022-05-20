@@ -504,7 +504,6 @@ Install Axios
 
 ![alt text](./Images/npm%20install%20axios.JPG )
 
-Sip a coffee, click on the next button and let finish this up.
 
 Go to ‘components’ directory
 
@@ -514,4 +513,82 @@ After that open your ListTodo.js
 
 <code>vi ListTodo.js</code>
 
-in the ListTodo.js copy and paste the following code
+In the ListTodo.js copy and paste the following code
+
+![alt text](./Images/x.JPG)
+
+*vi ListTodo.js*
+
+![alt text](./Images/FRONTEND%20CREATION%20(CONTINUED)%20vi%20ListTodo.JPG)
+
+Then in your Todo.js file you write the following code
+
+![alt text](./Images/y.JPG)
+
+*vim  Todo.js*
+
+
+![alt text](./Images/FRONTEND%20CREATION%20(CONTINUED)%20vi%20Todo.JPG)
+
+I will need to make little adjustment to react code. Delete the logo and adjust our App.js to look like this.
+
+Move to the src folder
+
+<code>cd ..</code>
+
+Then make sure change to src folder and run
+
+<code>vi App.js</code>
+
+Copy and paste the code below into it
+
+![alt text](./Images/3.JPG)
+
+*Vi App.js*
+
+![alt text](./Images/FRONTEND%20CREATION%20(CONTINUED)%20vi%20App.JPG)
+
+After pasting, exit the editor.
+
+In the src directory open the App.css
+
+<code>vi App.css</code>
+
+Then paste the following code into App.css:
+
+![alt text](./Images/s.JPG)
+
+Exit
+
+In the src directory open the index.css
+
+<code>vim index.css</code>
+
+Copy and paste the code below:
+
+<code>
+body {
+margin: 0;
+padding: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+box-sizing: border-box;
+background-color: #282c34;
+color: #787a80;
+}
+
+code {
+font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+monospace;
+}
+</code>
+Go to the Todo directory
+
+cd ../..
+When you are in the Todo directory run:
+
+npm run dev
+Assuming no errors when saving all these files, our To-Do app should be ready and fully functional with the functionality discussed earlier: creating a task, deleting a task and viewing all your tasks.
