@@ -585,10 +585,18 @@ font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 monospace;
 }
 </code>
+
+
 Go to the Todo directory
 
-cd ../..
-When you are in the Todo directory run:
+<code>cd ../..</code>
 
-npm run dev
-Assuming no errors when saving all these files, our To-Do app should be ready and fully functional with the functionality discussed earlier: creating a task, deleting a task and viewing all your tasks.
+When you are in the Todo directory run command to launch Todo application
+
+<code>npm run dev</code>
+
+![alt text](./Images/Completed%20project%203%20Todo%20application%202.JPG)
+
+ I have successfully created a simple To-do application deployed it to MERN stack. This involved writing an application using React.js which communicates with a backend application written using Expressjs.used Mongodb backend for storing task in a database.
+
+
