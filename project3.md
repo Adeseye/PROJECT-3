@@ -505,3 +505,13 @@ Install Axios
 ![alt text](./Images/npm%20install%20axios.JPG )
 
 Sip a coffee, click on the next button and let finish this up.
+
+Go to ‘components’ directory
+
+<code>sc src/components</code>
+
+After that open your ListTodo.js
+
+<code>vi ListTodo.js</code>
+
+in the ListTodo.js copy and paste the following code
