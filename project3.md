@@ -448,6 +448,8 @@ Now, ensure you are inside the Todo directory, and simply do:
 
 Your app should open and start running on localhost:3000, create an inbound rule for port 3000
 
+*Created an inbound rule*
+
 ![alt text](./Images/inbound%20port%203000.JPG/)
 
 This will open and start running
