@@ -1,4 +1,4 @@
-SIMPLE TO-DO APPLICATION ON MERN WEB STACK
+SIMPLE TO-DO APPLICATION ON MERN WEB STACK IN AWS
 
 To achieve this I would be deploying a web solution based on MERN stack in AWS Cloud.
 
