@@ -452,9 +452,7 @@ Your app should open and start running on localhost:3000, create an inbound rule
 
 ![alt text](./Images/inbound%20port%203000.JPG/)
 
-Now open web browser, type in public IP & port 3000.
-
-http://13.40.197.221:3000
+Now open web browser, type in public IP & port 3000. Which is http://13.40.197.221:3000
 
 ![alt text](./Images/npm%20run%20dev%202%20React.JPG)
 
@@ -602,5 +600,7 @@ When you are in the Todo directory run command to launch Todo application
 ![alt text](./Images/Completed%20project%203%20Todo%20application%202.JPG)
 
  I have successfully created a simple To-do application deployed it to MERN stack. This involved writing an application using React.js which communicates with a backend application written using Expressjs.used Mongodb backend for storing task in a database.
+
+ END...
 
 
